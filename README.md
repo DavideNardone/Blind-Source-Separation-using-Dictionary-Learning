@@ -15,7 +15,7 @@ without any particular loss of accuracy in the separation.
 
 For more information about BSS, please refer to: http://www.fon.hum.uva.nl/praat/manual/blind_source_separation.html
 
-## Requisites and dependency
+# Requisites and dependency
 
 The software is mostly written in MATLAB with consistent C/C++ dependency. In order to make it works you must have installed:
 
@@ -27,14 +27,14 @@ For more information, please refer to: http://spams-devel.gforge.inria.fr/
 
 The performaces of the proposed algorithm have been evaluated by using BSSEVAL[2] library.
 
-## Usage
+# Usage
 
 In order to run this project, go into the project folder: `/sources` and run the file `main.m`. The latter, in addition to the main DBSS method also integrates two well known BSS methods 1) Fast-ICA and ERICA. We've added them into the project just to compare each other performance.
 
 The `main.m` file contains some commented code-lines which have some different purpose such as: saving outputs or displaying different plots.
 
 
-## Dataset
+# Dataset
 
 The dataset used for testing the algorithms are those for the Sixth Community-Based Signal Separation Evaluation Campaign,
 SiSEC 2015[3-4]. They are placed into the project folder: `/resources`. In the latter folder, other kind of datasets have been provided.
