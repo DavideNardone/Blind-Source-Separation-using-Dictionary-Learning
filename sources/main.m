@@ -1,5 +1,5 @@
 clear all;close all;clc
-root = '/Users/davidenardone/Desktop/BSSproject/';
+root = '/Users/davidenardone/Desktop/Blind-Source-Separation-using-Dictionary-Learning/';
 sources = strcat(root,'sources/');
 resources = strcat(root,'resources/');
 
@@ -249,9 +249,10 @@ end
 plotGraphs(s,se,sparse_mix);
 
 %% Saving Outputs
-saving_audio_output(mix,se,fs,dirMixOutput,dirPathOutput);
+% saving_audio_output(mix,se,fs,dirMixOutput,dirPathOutput);
 
-%creating results directory whether it doesnt exits
+
+% Creating results directory whether it doesnt exits
 % if exist(dirPathRes,'dir') == 0
 %     mkdir(dirPathRes);
 % end
