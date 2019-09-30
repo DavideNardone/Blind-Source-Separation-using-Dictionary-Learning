@@ -51,6 +51,19 @@ For any kind of problem, questions, ideas or suggestions, please don't esitate t
 
 # References
 
+If you use the software in a scientific publication, please consider citing the repository with the following DOI:
+
+```
+@incollection{ciaramella2020blind,
+  title={Blind Source Separation Using Dictionary Learning in Wireless Sensor Network Scenario},
+  author={Ciaramella, Angelo and Nardone, Davide and Staiano, Antonino},
+  booktitle={Neural Approaches to Dynamics of Signal Exchanges},
+  pages={119--131},
+  year={2020},
+  publisher={Springer}
+}
+```
+
 [1] SPArse Modeling Software (SPAM): http://spams-devel.gforge.inria.fr/
 
 [2] BSSEVAL: http://bass-db.gforge.inria.fr/bss_eval/
